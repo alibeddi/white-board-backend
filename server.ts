@@ -2,7 +2,7 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import { Server } from "socket.io";
-import { userJoin, getUsers, userLeave } from "./utils/user"; // Make sure to update your user utils to TypeScript as well
+import { userJoin, getUsers, userLeave } from "./utils/User"; // Make sure to update your user utils to TypeScript as well
 
 const app = express();
 const server = http.createServer(app);

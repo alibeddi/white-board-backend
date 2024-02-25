@@ -123,7 +123,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v2
 .yarn/cache
@@ -142,3 +141,7 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
