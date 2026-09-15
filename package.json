@@ -5,8 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.ts",
-    "dev": "nodemon server.ts"
+    "start": "node api.js && node server.ts",
+    "dev": "node api.js && nodemon server.ts"
   },
   "author": "ali beddi",
   "license": "ISC",
